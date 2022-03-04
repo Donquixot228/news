@@ -1,0 +1,47 @@
+name: test1
+description: A new Flutter project.
+
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Widgets ets.
+  stacked_card_carousel: ^0.0.3-nullsafety.1
+  get_it:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+
+  fonts:
+    - family: SF-Pro
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Black.otf
+    - family: SF-Pro-Thin
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Thin.otf
+#    - family: TTNorms-Regular
+#      fonts:
+#        - asset: assets/fonts/TTNorms-Regular.ttf
